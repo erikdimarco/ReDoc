@@ -158,18 +158,6 @@ or
 <RedocStandalone spec={/* spec as an object */}/>
 ```
 
-Also you can pass options:
-
-```js
-<RedocStandalone
-  specUrl="http://rebilly.github.io/RebillyAPI/openapi.json"
-  options={{
-    nativeScrollbars: true,
-    theme: { colors: { primary { main: '#dd5522' } } },
-  }}
-/>
-```
-
 Here are detailed [options docs](#redoc-options-object).
 
 You can also specify `onLoaded` callback which will be called each time Redoc has been fully rendered or when error occurs (with an error as the first argument). *NOTE*: It may be called multiply times if you change component properties
